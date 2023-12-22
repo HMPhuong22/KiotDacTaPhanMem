@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dangkiSV.css">
+    <script src="dangkiSV.js"></script>
+    <title>Form đăng ký sinh viên</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Form Đăng Ký</h2>
+        <form id="registrationForm" method="POST" action="dangkiSV.html" onsubmit="return Main ()">
+            <div class="input-container">
+                <label for="fullname">Họ và Tên:</label>
+                <input type="text" id="fullname">
+            </div>
+            
+            <div class="input-container">
+                <label for="email">Email:</label>
+                <input type="text" id="email">
+            </div>
+            
+            <div class="input-container">
+                <label>Giới Tính:</label>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Nam</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Nữ</label>
+            </div>
+            
+            <div class="input-container">
+                <label>Sở Thích:</label>
+                <input type="checkbox" name="hobby[]" id="reading" value="reading">
+                <label for="reading">Đọc sách</label>
+                <input type="checkbox" name="hobby[]" id="traveling" value="traveling">
+                <label for="traveling">Du lịch</label>
+                <input type="checkbox" name="hobby[]" id="gaming" value="gaming">
+                <label for="gaming">Chơi game</label>
+            </div>
+            
+            <div class="input-container">
+                <label for="nationality">Quốc Tịch:</label>
+                <select name="nationality" id="nationality">
+                    <option value="vn">Việt Nam</option>
+                    <option value="us">United States</option>
+                    <option value="jp">Japan</option>
+                    <option value="kr">South Korea</option>
+                    <!-- Thêm các quốc gia khác vào đây -->
+                </select>
+            </div>
+            
+            <div class="input-container">
+                <label for="notes">Ghi Chú:</label>
+                <textarea name="notes" id="notes" rows="4" cols="50"></textarea>
+            </div>
+            
+            <button type="submit">Đăng Ký</button>
+        </form>
+    </div>
+</body>
+</html>

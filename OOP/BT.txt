@@ -1,0 +1,31 @@
+**Bài tập 1: Tạo lớp đối tượng**
+Hãy tạo một lớp đối tượng đơn giản ví dụ như `Person` với các thuộc tính như `name`, `age`, và các phương thức như `introduce()` để xuất thông tin người đó ra màn hình.
+
+**Bài tập 2: Tạo lớp thừa kế**
+Tạo lớp `Student` thừa kế từ lớp `Person`. Lớp `Student` có thêm thuộc tính `studentId` và phương thức `study()` để xuất ra màn hình thông báo "Đang học..."
+
+**Bài tập 3: Tạo lớp sản phẩm**
+Hãy tạo một lớp `Product` để đại diện cho một sản phẩm với các thuộc tính như `name`, `price`, và `description`. Tạo các phương thức để lấy và đặt giá sản phẩm, và hiển thị thông tin sản phẩm.
+
+**Bài tập 4: Tạo lớp tính toán**
+Tạo một lớp `Calculator` với các phương thức tính toán như `add()`, `subtract()`, `multiply()`, và `divide()`. 
+
+**Bài tập 5: Tạo lớp đối tượng Singleton**
+Hãy tạo một lớp Singleton ví dụ như `Logger` để ghi log thông tin. Đảm bảo rằng chỉ có một thể hiện (instance) của lớp này được tạo ra.
+
+**Bài tập 6: Tạo lớp đối tượng dùng kỹ thuật đóng gói (Encapsulation)**
+Tạo một lớp đối tượng bất kỳ và đảm bảo rằng các thuộc tính của nó được bảo vệ và chỉ có thể truy cập thông qua các phương thức `get` và `set`.
+
+**Bài tập 7: Tạo lớp đối tượng Abstract**
+Tạo một lớp đối tượng trừu tượng (Abstract) ví dụ như `Shape` với phương thức trừu tượng `calculateArea()` để tính diện tích.  
+Sau đó tạo các lớp con như `Circle` và `Rectangle` kế thừa từ `Shape` và triển khai phương thức `calculateArea()`.
+
+**Bài tập 8: Tạo lớp đối tượng Interface*
+Tạo một giao diện (Interface) ví dụ như `Movable` với phương thức `move()`. Sau đó tạo một lớp đối tượng như `Car` và `Plane` và triển khai giao diện `Movable`.
+
+**Bài tập 9: Tạo ứng dụng quản lý**
+Tạo một ứng dụng quản lý đối tượng ví dụ như quản lý danh bạ (Phonebook) hoặc quản lý sản phẩm (Product Management) sử dụng lập trình hướng đối tượng.
+
+**Bài tập 10: Tạo lớp đối tượng cho ứng dụng Web**
+Tạo một lớp đối tượng cho các phần tử web ví dụ như lớp `Button`, `Textbox`, hoặc `Form`. Đảm bảo rằng bạn sử dụng OOP để tái sử dụng mã và quản lý các phần tử web một cách hiệu quả.
+Hãy thử làm các bài tập trên để tập trung vào việc thực hành lập trình hướng đối tượng trong PHP. Điều này sẽ giúp bạn cải thiện kỹ năng OOP của mình và hiểu sâu hơn về cách sử dụng lập trình hướng đối tượng trong các ứng dụng thực tế.
