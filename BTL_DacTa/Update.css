@@ -1,0 +1,50 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-top: 10px;
+}
+#save{
+    background-color: aquamarine;
+}
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Add additional styling for file input if needed */
+input[type="file"] {
+    margin-top: 10px;
+}
+
+/* Add styling for images if needed */
+img {
+    margin-top: 10px;
+    max-width: 100%;
+}
+
